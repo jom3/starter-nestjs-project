@@ -1,15 +1,15 @@
 # Starter NestJS Project
 
-A modern backend starter built with NestJS, Prisma, PostgreSQL, TypeScript, and ESLint Flat Config.
+Un starter moderno para backend construido con NestJS, Prisma, PostgreSQL, TypeScript y ESLint Flat Config.
 
-🌐 Languages
+🌐 Idiomas
 
-* English (current)
-* [Español](./README.es.md)
+* [English](./README.md)
+* Español (actual)
 
 ---
 
-## Features
+## Características
 
 * NestJS Version 11.0.21
 * Prisma ORM Version 7.8.0
@@ -19,14 +19,14 @@ A modern backend starter built with NestJS, Prisma, PostgreSQL, TypeScript, and 
 * Prettier
 * Swagger
 * Winston Logger
-* Path aliases (`@/*`)
+* Alias de rutas (`@/*`)
 * ValidationPipe
-* Environment variables support
-* Incremental TypeScript compilation
+* Soporte para variables de entorno
+* Compilación incremental de TypeScript
 
 ---
 
-## Requirements
+## Requisitos
 
 * Node.js 22+
 * pnpm
@@ -34,9 +34,9 @@ A modern backend starter built with NestJS, Prisma, PostgreSQL, TypeScript, and 
 
 ---
 
-## Installation
+## Instalación
 
-Install dependencies:
+Instalar dependencias:
 
 ```bash
 pnpm install
@@ -44,15 +44,15 @@ pnpm install
 
 ---
 
-## Environment Variables
+## Variables de entorno
 
-Create your environment file:
+Crear archivo de entorno:
 
 ```bash
 cp .env.example .env
 ```
 
-Example:
+Ejemplo:
 
 ```env
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/app"
@@ -64,15 +64,15 @@ NODE_ENV="development"
 
 ---
 
-## Prisma Setup
+## Configuración de Prisma
 
-Generate Prisma client:
+Generar cliente Prisma:
 
 ```bash
 pnpm prisma generate
 ```
 
-Run migrations:
+Ejecutar migraciones:
 
 ```bash
 pnpm prisma migrate dev
@@ -80,7 +80,7 @@ pnpm prisma migrate dev
 
 ---
 
-## Run Development Server
+## Ejecutar servidor en desarrollo
 
 ```bash
 pnpm dev
@@ -88,9 +88,9 @@ pnpm dev
 
 ---
 
-## Swagger Documentation
+## Documentación Swagger
 
-Available at:
+Disponible en:
 
 ```txt
 http://localhost:3000/docs
@@ -98,7 +98,7 @@ http://localhost:3000/docs
 
 ---
 
-## Available Scripts
+## Scripts disponibles
 
 ```bash
 pnpm dev
@@ -115,7 +115,7 @@ pnpm prisma studio
 
 ---
 
-## Project Structure
+## Estructura del proyecto
 
 ```txt
 src/
@@ -130,7 +130,7 @@ src/
 
 ---
 
-## Technologies
+## Tecnologías
 
 * NestJS
 * Prisma ORM
@@ -142,6 +142,6 @@ src/
 
 ---
 
-## License
+## Licencia
 
 MIT
