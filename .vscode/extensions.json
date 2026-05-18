@@ -1,0 +1,15 @@
+{
+	"recommendations": [
+    "usernamehw.errorlens",
+		"steoates.autoimport",
+    "dbaeumer.vscode-eslint",
+    "Prisma.prisma",
+    "aaron-bond.better-comments",
+    "Gydunhn.javascript-essentials",
+    "quicktype.quicktype",
+    "esbenp.prettier-vscode"
+	],
+	"unwantedRecommendations": [
+    
+	]
+}
